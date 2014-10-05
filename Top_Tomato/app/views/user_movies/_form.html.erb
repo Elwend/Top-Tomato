@@ -1,0 +1,17 @@
+<%= form_for(@user_movie) do |f| %>
+  <% if @user_movie.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user_movie.errors.count, "error") %> prohibited this user_movie from being saved:</h2>
+
+      <ul>
+      <% @user_movie.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
