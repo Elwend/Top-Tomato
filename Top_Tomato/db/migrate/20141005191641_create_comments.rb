@@ -1,7 +1,7 @@
 class CreateComments < ActiveRecord::Migration
   def change
     create_table :comments do |t|
-      t.body :string
+      t.string :body
       t.references :movie
 
       t.timestamps
