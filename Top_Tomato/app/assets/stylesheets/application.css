@@ -13,3 +13,51 @@
  *= require_tree .
  *= require_self
  */
+
+ html, body {
+  margin: 0 auto;
+  width: 100%;
+  background: url("seats.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Dosis', sans-serif;
+ }
+
+ header {
+  height: 70px;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  border-bottom: 3px solid red;
+ }
+
+ header h1 {
+  margin: 0;
+  padding: 1%;
+  font-size: 3em;
+ }
+
+ h2 {
+  font-size: 2em;
+  color: #fff;
+ }
+
+ .wrapper {
+  opacity: 0.5;
+  margin-left: 10%;
+  margin-right: 10%;
+ }
+
+ th, td {
+  font-size: 1.5em;
+  color: #fff;
+ }
+
+ a {
+  font-size: 1.5em;
+  color: red;
+ }
+
+
