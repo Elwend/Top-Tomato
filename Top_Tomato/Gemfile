@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
-# Devise 3.0
+# Hides Api Key
+gem 'figaro'
+# Able to send notfications to Cell
+gem 'twilio-ruby', :require => false
+# User authentication and login
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
