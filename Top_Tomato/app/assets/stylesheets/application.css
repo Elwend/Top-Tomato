@@ -38,26 +38,58 @@
   padding: 1%;
   font-size: 3em;
  }
-
+ 
  h2 {
+  margin: 0;
   font-size: 2em;
-  color: #fff;
+  color: #000;
  }
 
  .wrapper {
+  height: 80%;
+  width: 70%;
+  margin: 0 auto;
+ }
+
+ .content {
+  width: 100%;
+  margin-top: 20px;
+  height: 100%;
+  padding: 2%;
+  background-color: #fff;
   opacity: 0.5;
-  margin-left: 10%;
-  margin-right: 10%;
+  border-radius: 10px;
+  float: left;
+ }
+
+ table {
+  width: 100%;
+  border-spacing: 1%;
+ }
+
+ tr {
+  margin: 1%;
+  padding: 1%;
  }
 
  th, td {
+  width: 10%;
   font-size: 1.5em;
+  background-color: red;
   color: #fff;
+  padding: 1%;
+  border-radius: 5px;
  }
 
  a {
   font-size: 1.5em;
   color: red;
  }
+
+ @media all and (max-width: 600px){
+  th, td {
+    font-size: 1em;
+  }
+}
 
 
